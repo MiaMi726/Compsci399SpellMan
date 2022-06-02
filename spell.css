@@ -1,0 +1,107 @@
+#textChooser {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    height: 45%;
+    width: 80%;
+}
+
+#content {
+    padding: 20px;
+    width: 60%;
+    overflow-y: auto;
+    border:1px solid black;
+}
+
+#text {
+    width: 100%;
+    line-height: 2em;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#time {
+    font-size: 25px;
+    color: #e05915;
+}
+
+#left-aside {
+    width: 20%;
+}
+
+#right-aside {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#currentRank {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#score {
+    font-size: 25px;
+    color: green;
+}
+
+#home-btn {
+    position: absolute;
+    left: 2.5%;
+    top: 5%;
+}
+
+#finish {
+    position: absolute;
+    left: 3%;
+    bottom: 25%;
+}
+
+#console {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    width: 70%;
+    height: 8%;
+}
+
+#wrongWord {
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+}
