@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="spell.css">
+    <link rel="stylesheet" href="common.css">  
+</head>
+
+<body>
+    <img class="bg-img" src="./game-bg.jpg"/>
+    <button id="home-btn" type="button" class="button green larrow">Back To HOMEPAGE </button>
+    <button id="finish" type="button" class="button yellow tags" disabled >Hint</button>
+    <div id="game">
+        <div id="content">
+            <div id="text">
+            </div>
+            
+        </div>
+        <div id="console">
+            <div id="textChooser">
+                <div>
+                    <label for="ranks">Choose a game rank:</label>
+                    <select class="select" id="ranks">
+                        <option disabled selected value> -- select a rank -- </option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+    
+                
+            </div>
+            <button id="start-btn" class="primary-button disabled" disabled>Start</button>
+
+                <div id="currentRank">Rank:</div>
+                <div id="time">Total Time</div>
+                <div id="round">Round</div>
+                <div id="total-err">Total Error:</div>
+                <div id="left-err">Left Error:</div>
+
+            <div id="score">score: 0</div>
+
+        </div> 
+    </div>
+    <div id="buttons">
+        <input type="text" id="wrongWord" placeholder="write the corrected word" class="glowing-border" />
+        <button id="check" type="button" class="button blue side" disabled>Check</button>
+        <button  id="confirm" type="button" class="button gray side" disabled >Next Article</button>
+    </div>
+
+    <script src="spell.js"></script>
+</body>
+
+</html>
